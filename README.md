@@ -1,4 +1,4 @@
-# Python lernen für Einsteiger
+# **Python** Grundlagen Kurs
 
 ![Vorschaubild](./Grafiken/LibreOffice/Vorschaubild.png)
 
