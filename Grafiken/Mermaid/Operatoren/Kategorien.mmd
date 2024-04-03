@@ -1,0 +1,30 @@
+flowchart TB
+
+    Operatoren["<b>Operatoren</b> der Programmiersprache <i>Python</i>"]
+
+    Operatoren --> Berechnung
+    Operatoren --> Zuweisung
+
+    Berechnung --> Boolsch["<b>Boolsche</b> Operatoren"]
+    Berechnung --> Arithmetisch["<b>Arithmetische</b> Operatoren"]
+    Berechnung --> Bitweise["<b>Bitweise</b> Operatoren"]
+
+    Boolsch --> Logik["<b>Logik</b>operatoren"]
+    Boolsch --> Vergleich["<b>Vergleichs</b>operatoren"]
+    Boolsch --> Identity["<b>Identitäts</b>operatoren"]
+    Boolsch --> Membership["<b>Mitgliedschafts</b>operatoren"]
+
+    Zuweisung --> More["..."]
+
+    style Operatoren fill:black,color:white,stroke-width:0px
+    style Berechnung fill:black,color:white,stroke-width:0px
+    style Zuweisung fill:black,color:white,stroke-width:0px
+
+    style Boolsch fill:lightgray,stroke-width:0px
+    style Arithmetisch fill:lightgray,stroke-width:0px
+    style Bitweise fill:lightgray,stroke-width:0px
+    style Logik fill:lightgray,stroke-width:0px
+    style Vergleich fill:lightgray,stroke-width:0px
+    style Identity fill:lightgray,stroke-width:0px
+    style Membership fill:lightgray,stroke-width:0px
+    style More fill:lightgray,stroke-width:0px

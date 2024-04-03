@@ -1,0 +1,40 @@
+flowchart TB
+
+    Datentypen["<b>Datentypen</b> der Programmiersprache <i>Python</i>"]
+    
+    Datentypen --> Komplex["<b>Komplexe</b> Datentypen"]
+    
+    Komplex --> Sammlung["Sammlungen"]
+
+    Sammlung --> Sequenz["Sequenzen"]
+
+    Sequenz --> Allgemein
+    Sequenz --> Zeichen
+    Sequenz --> Byte
+    
+    Allgemein --> list["<i>(mutable)</i><br/><code>list</code>"]
+    Allgemein --> tuple["<i>(immutable)</i><br/><code>tuple</code>"]
+    Allgemein --> range["<i>(immutable)</i><br/><code>range</code>"]
+
+    Zeichen --> str["<i>(mutable)</i><br/><code>str</code>"]
+
+    Byte --> bytes["<i>(immutable)</i><br/><code>bytes</code>"]
+    Byte --> bytearray["<i>(mutable)</i><br/><code>bytearray</code>"]
+    Byte --> memoryview["<i>(mutable)</i><br/><code>memoryview</code>"]
+
+    style Datentypen fill:black,color:white,stroke-width:0px
+    style Komplex fill:black,color:white,stroke-width:0px
+
+    style Sammlung fill:lightgray,stroke-width:0px
+    style Sequenz fill:lightgray,stroke-width:0px
+    style Allgemein fill:lightgray,stroke-width:0px
+    style Zeichen fill:lightgray,stroke-width:0px
+    style Byte fill:lightgray,stroke-width:0px
+    
+    style list fill:skyblue,stroke-width:0px
+    style tuple fill:skyblue,stroke-width:0px
+    style range fill:skyblue,stroke-width:0px
+    style str fill:skyblue,stroke-width:0px
+    style bytes fill:skyblue,stroke-width:0px
+    style bytearray fill:skyblue,stroke-width:0px
+    style memoryview fill:skyblue,stroke-width:0px

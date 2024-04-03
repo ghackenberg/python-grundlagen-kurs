@@ -1,0 +1,31 @@
+flowchart
+
+    Literale
+
+    Literale --> Boolsch["Literale für <b>Wahrheitswerte</b>"]
+    Literale --> Numerisch["Literale für <b>Zahlen</b>"]
+    Literale --> Zeichenketten["Literale für <b>Zeichenketten</b>"]
+    Literale --> Weitere["..."]
+
+    Boolsch --> True["<code>True</code>"]
+    Boolsch --> False["<code>False</code>"]
+
+    Numerisch --> Ganz["<code>5</code>"]
+    Numerisch --> Bruch["<code>5.127</code>"]
+
+    Zeichenketten --> String["<code>&quot;abc&quot;</code>"]
+
+    style Literale fill:black,color:white,stroke-width:0px
+
+    style Boolsch fill:lightgray,stroke-width:0px
+    style Numerisch fill:lightgray,stroke-width:0px
+    style Zeichenketten fill:lightgray,stroke-width:0px
+    style Weitere fill:lightgray,stroke-width:0px
+
+    style True fill:khaki,stroke-width:0px
+    style False fill:khaki,stroke-width:0px
+    
+    style Ganz fill:skyblue,stroke-width:0px
+    style Bruch fill:skyblue,stroke-width:0px
+
+    style String fill:lightgreen,stroke-width:0px

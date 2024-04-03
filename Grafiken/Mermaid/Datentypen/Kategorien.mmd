@@ -1,0 +1,38 @@
+
+
+flowchart TB
+    
+    Datentypen["<b>Datentypen</b> der Programmiersprache <i>Python</i>"]
+
+    Datentypen --> Primitiv["<b>Primnitive</b> Datentypen"]
+    Datentypen --> Komplex["<b>Komplexe</b> Datentypen"]
+
+    Primitiv --> Boolsch
+    Primitiv --> Numerisch
+
+    Komplex --> Sammlung["Sammlungen"]
+    Komplex --> Klassen
+
+    Sammlung --> Sequenz["Sequenzen"]
+    Sammlung --> Menge["Mengen"]
+    Sammlung --> Abbildung["Abbildungen"]
+
+    Sequenz --> Allgemein
+    Sequenz --> Zeichen
+    Sequenz --> Byte
+
+    style Datentypen fill:black,color:white,stroke-width:0px
+    style Primitiv fill:black,color:white,stroke-width:0px
+    style Komplex fill:black,color:white,stroke-width:0px
+
+    style Boolsch fill:lightgray,stroke-width:0px
+    style Numerisch fill:lightgray,stroke-width:0px
+    style Sammlung fill:lightgray,stroke-width:0px
+    style Klassen fill:lightgray,stroke-width:0px
+    style Sequenz fill:lightgray,stroke-width:0px
+    style Menge fill:lightgray,stroke-width:0px
+    style Abbildung fill:lightgray,stroke-width:0px
+    style Allgemein fill:lightgray,stroke-width:0px
+    style Zeichen fill:lightgray,stroke-width:0px
+    style Byte fill:lightgray,stroke-width:0px
+    

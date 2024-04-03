@@ -1,0 +1,79 @@
+
+
+flowchart TB
+    
+    Datentypen["<b>Datentypen</b> der Programmiersprache <i>Python</i>"]
+
+    Datentypen --> Primitiv["<b>Primnitive</b> Datentypen"]
+    Datentypen --> Komplex["<b>Komplexe</b> Datentypen"]
+
+    Primitiv --> Boolsch
+    Primitiv --> Numerisch
+
+    Boolsch --> bool["<code>bool</code>"]
+
+    Numerisch --> int["<code>int</code>"]
+    Numerisch --> float["<code>float</code>"]
+    Numerisch --> complex["<code>complex</code>"]
+
+    Komplex --> Sammlung["Sammlungen"]
+    Komplex --> Klassen
+
+    Sammlung --> Sequenz["Sequenzen"]
+    Sammlung --> Menge["Mengen"]
+    Sammlung --> Abbildung["Abbildungen"]
+
+    Sequenz --> Allgemein
+    Sequenz --> Zeichen
+    Sequenz --> Byte
+    
+    Allgemein --> list["<i>(mutable)</i><br/><code>list</code>"]
+    Allgemein --> tuple["<i>(immutable)</i><br/><code>tuple</code>"]
+    Allgemein --> range["<i>(immutable)</i><br/><code>range</code>"]
+
+    Zeichen --> str["<i>(mutable)</i><br/><code>str</code>"]
+
+    Byte --> bytes["<i>(immutable)</i><br/><code>bytes</code>"]
+    Byte --> bytearray["<i>(mutable)</i><br/><code>bytearray</code>"]
+    Byte --> memoryview["<i>(mutable)</i><br/><code>memoryview</code>"]
+
+    Menge --> set["<i>(mutable)</i><br/><code>set</code>"]
+    Menge --> frozenset["<i>(immutable)</i><br/><code>frozenset</code>"]
+
+    Abbildung --> dict["<i>(mutable)</i><br/><code>dict</code>"]
+
+    Klassen --> Klasse["<code>class</code>"]
+
+    style Datentypen fill:black,color:white,stroke-width:0px
+    style Primitiv fill:black,color:white,stroke-width:0px
+    style Komplex fill:black,color:white,stroke-width:0px
+
+    style Boolsch fill:lightgray,stroke-width:0px
+    style Numerisch fill:lightgray,stroke-width:0px
+    style Sammlung fill:lightgray,stroke-width:0px
+    style Klassen fill:lightgray,stroke-width:0px
+    style Sequenz fill:lightgray,stroke-width:0px
+    style Menge fill:lightgray,stroke-width:0px
+    style Abbildung fill:lightgray,stroke-width:0px
+    style Allgemein fill:lightgray,stroke-width:0px
+    style Zeichen fill:lightgray,stroke-width:0px
+    style Byte fill:lightgray,stroke-width:0px
+
+    style bool fill:khaki,stroke-width:0px
+    style int fill:khaki,stroke-width:0px
+    style float fill:khaki,stroke-width:0px
+    style complex fill:khaki,stroke-width:0px
+    
+    style list fill:skyblue,stroke-width:0px
+    style tuple fill:skyblue,stroke-width:0px
+    style range fill:skyblue,stroke-width:0px
+    style str fill:skyblue,stroke-width:0px
+    style bytes fill:skyblue,stroke-width:0px
+    style bytearray fill:skyblue,stroke-width:0px
+    style memoryview fill:skyblue,stroke-width:0px
+
+    style set fill:lightgreen,stroke-width:0px
+    style frozenset fill:lightgreen,stroke-width:0px
+    style dict fill:lightgreen,stroke-width:0px
+
+    style Klasse fill:lightpink,stroke-width:0px

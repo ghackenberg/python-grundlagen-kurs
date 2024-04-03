@@ -1,0 +1,47 @@
+flowchart LR
+
+    0 ~~~ Byte ~~~ Symbol ~~~ Dezimalzahl ~~~ Binärzahl
+
+    1["Start"] --> n1["<code>1</code>"] --- s1["<code>H</code>"] --- d1["<code>72</code>"] --- b1["<code>01001000</code>"]
+    2 ~~~ n2["<code>2</code>"] --- s2["<code>a</code>"] --- d2["<code>97</code>"] --- b2["<code>01100001</code>"]
+    3 ~~~ n3["<code>3</code>"] --- s3["<code>n</code>"] --- d3["<code>110</code>"] --- b3["<code>01101110</code>"]
+    4 ~~~ n4["<code>4</code>"] --- s4["<code>s</code>"] --- d4["<code>115</code>"] --- b4["<code>01110011</code>"]
+    5["Ende"] --> n5["<code>5</code>"] --- s5["<code>NUL</code>"] --- d5["<code>0</code>"] --- b5["<code>00000000</code>"]
+
+    style 0 fill:white,color:white,stroke-width:0px
+    style 2 fill:white,color:white,stroke-width:0px
+    style 3 fill:white,color:white,stroke-width:0px
+    style 4 fill:white,color:white,stroke-width:0px
+
+    style 1 fill:lightgray,stroke-width:0px
+    style 5 fill:lightgray,stroke-width:0px
+
+    style Byte fill:black,color:white,stroke-width:0px
+    style Symbol fill:black,color:white,stroke-width:0px
+    style Dezimalzahl fill:black,color:white,stroke-width:0px
+    style Binärzahl fill:black,color:white,stroke-width:0px
+
+    style n1 fill:khaki,stroke-width:0px
+    style n2 fill:khaki,stroke-width:0px
+    style n3 fill:khaki,stroke-width:0px
+    style n4 fill:khaki,stroke-width:0px
+    style n5 fill:khaki,stroke-width:0px
+
+    style s1 fill:skyblue,stroke-width:0px
+    style s2 fill:skyblue,stroke-width:0px
+    style s3 fill:skyblue,stroke-width:0px
+    style s4 fill:skyblue,stroke-width:0px
+    style s5 fill:skyblue,stroke-width:0px
+
+    style d1 fill:lightgreen,stroke-width:0px
+    style d2 fill:lightgreen,stroke-width:0px
+    style d3 fill:lightgreen,stroke-width:0px
+    style d4 fill:lightgreen,stroke-width:0px
+    style d5 fill:lightgreen,stroke-width:0px
+
+    style b1 fill:lightpink,stroke-width:0px
+    style b2 fill:lightpink,stroke-width:0px
+    style b3 fill:lightpink,stroke-width:0px
+    style b4 fill:lightpink,stroke-width:0px
+    style b5 fill:lightpink,stroke-width:0px
+

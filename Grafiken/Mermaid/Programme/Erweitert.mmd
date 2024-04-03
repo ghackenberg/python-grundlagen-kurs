@@ -1,0 +1,24 @@
+classDiagram
+
+    direction LR
+
+    class Programm {
+        <<Konkret>>
+    }
+    class Eingabe {
+        <<Daten>>
+    }
+    class Ausgabe {
+        <<Daten>>
+    }
+    class Nutzer {
+        <<Abstrakt>>
+    }
+
+    Programm --> Ausgabe : erzeugt
+
+    Ausgabe --> Nutzer : verarbeitet von
+
+    Eingabe <-- Nutzer : erzeugt
+
+    Programm <-- Eingabe : verarbeitet von

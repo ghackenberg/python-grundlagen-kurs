@@ -1,0 +1,26 @@
+flowchart TB
+
+    Operatoren["<b>Operatoren</b> der Programmiersprache <i>Python</i>"]
+
+    Operatoren --> Berechnung
+
+    Berechnung --> Bitweise["<b>Bitweise</b> Operatoren"]
+
+    Bitweise --> AND["<code>a & b</code>"]
+    Bitweise --> OR["<code>a | b</code>"]
+    Bitweise --> XOR["<code>a ^ b</code>"]
+    Bitweise --> NOT["<code>a ~ b</code>"]
+    Bitweise --> ZeroFillLeftShift["<code>a << 2</code>"]
+    Bitweise --> ZeroFillRightShift["<code>a >> 2</code>"]
+
+    style Operatoren fill:black,color:white,stroke-width:0px
+    style Berechnung fill:black,color:white,stroke-width:0px
+
+    style Bitweise fill:lightgray,stroke-width:0px
+
+    style AND fill:lightgreen,stroke-width:0px
+    style OR fill:lightgreen,stroke-width:0px
+    style XOR fill:lightgreen,stroke-width:0px
+    style NOT fill:lightgreen,stroke-width:0px
+    style ZeroFillLeftShift fill:lightgreen,stroke-width:0px
+    style ZeroFillRightShift fill:lightgreen,stroke-width:0px

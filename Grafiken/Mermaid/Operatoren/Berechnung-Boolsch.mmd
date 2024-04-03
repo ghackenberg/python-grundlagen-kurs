@@ -1,0 +1,52 @@
+flowchart TB
+
+    Operatoren["<b>Operatoren</b> der Programmiersprache <i>Python</i>"]
+
+    Operatoren --> Berechnung
+
+    Berechnung --> Boolsch["<b>Boolsche</b> Operatoren"]
+
+    Boolsch --> Logik["<b>Logik</b>operatoren"]
+    Boolsch --> Vergleich["<b>Vergleichs</b>operatoren"]
+    Boolsch --> Identity["<b>Identitäts</b>operatoren"]
+    Boolsch --> Membership["<b>Mitgliedschafts</b>operatoren"]
+
+    Logik --> And["<code>a and b</code>"]
+    Logik --> Or["<code>a or b</code>"]
+    Logik --> Not["<code>not a</code>"]
+
+    Vergleich --> Equal["<code>a == b</code>"]
+    Vergleich --> NotEqual["<code>a != b</code>"]
+    Vergleich --> GreaterThan["<code>a > b</code>"]
+    Vergleich --> SmallerThan["<code>a < b</code>"]
+    Vergleich --> GreaterThanOrEqualTo["<code>a >= b</code>"]
+    Vergleich --> SmallerThanOrEqualTo["<code>a <= b</code>"]
+
+    Identity --> Is["<code>a is b</code>"]
+    Identity --> IsNot["<code>a is not b</code>"]
+
+    Membership --> In["<code>a in b</code>"]
+    Membership --> NotIn["<code>a not in b</code>"]
+
+    style Operatoren fill:black,color:white,stroke-width:0px
+    style Berechnung fill:black,color:white,stroke-width:0px
+
+    style Boolsch fill:lightgray,stroke-width:0px
+    style Logik fill:lightgray,stroke-width:0px
+    style Vergleich fill:lightgray,stroke-width:0px
+    style Identity fill:lightgray,stroke-width:0px
+    style Membership fill:lightgray,stroke-width:0px
+
+    style And fill:khaki,stroke-width:0px
+    style Or fill:khaki,stroke-width:0px
+    style Not fill:khaki,stroke-width:0px
+    style Equal fill:khaki,stroke-width:0px
+    style NotEqual fill:khaki,stroke-width:0px
+    style GreaterThan fill:khaki,stroke-width:0px
+    style SmallerThan fill:khaki,stroke-width:0px
+    style GreaterThanOrEqualTo fill:khaki,stroke-width:0px
+    style SmallerThanOrEqualTo fill:khaki,stroke-width:0px
+    style Is fill:khaki,stroke-width:0px
+    style IsNot fill:khaki,stroke-width:0px
+    style In fill:khaki,stroke-width:0px
+    style NotIn fill:khaki,stroke-width:0px

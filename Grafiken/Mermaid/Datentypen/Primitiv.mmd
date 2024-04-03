@@ -1,0 +1,25 @@
+flowchart TB
+    
+    Datentypen["<b>Datentypen</b> der Programmiersprache <i>Python</i>"]
+
+    Datentypen --> Primitiv["<b>Primitive</b> Datentypen"]
+
+    Primitiv --> Boolsch
+    Primitiv --> Numerisch
+
+    Boolsch --> bool["<code>bool</code>"]
+
+    Numerisch --> int["<code>int</code>"]
+    Numerisch --> float["<code>float</code>"]
+    Numerisch --> complex["<code>complex</code>"]
+
+    style Datentypen fill:black,color:white,stroke-width:0px
+    style Primitiv fill:black,color:white,stroke-width:0px
+
+    style Boolsch fill:lightgray,stroke-width:0px
+    style Numerisch fill:lightgray,stroke-width:0px
+
+    style bool fill:khaki,stroke-width:0px
+    style int fill:khaki,stroke-width:0px
+    style float fill:khaki,stroke-width:0px
+    style complex fill:khaki,stroke-width:0px

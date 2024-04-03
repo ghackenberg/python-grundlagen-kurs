@@ -1,0 +1,31 @@
+flowchart
+
+    Operatoren
+
+    Operatoren --> Bool["Operatoren für <b>Wahrheitswerte</b>"]
+    Operatoren --> Num["Operatoren für <b>Zahlen</b>"]
+    Operatoren --> Str["Operatoren für <b>Zeichenketten</b>"]
+    Operatoren --> More["..."]
+
+    Bool --> Not["<code>not ...</code>"]
+    Bool --> And["<code>... and ...</code>"]
+
+    Num --> Plus["<code>... + ...</code>"]
+    Num --> Mal["<code>... * ...</code>"]
+
+    Str --> Concat["<code>&quot;...&quot; + &quot;...&quot;</code>"]
+
+    style Operatoren fill:black,color:white,stroke-width:0px
+
+    style Bool fill:lightgray,stroke-width:0px
+    style Num fill:lightgray,stroke-width:0px
+    style Str fill:lightgray,stroke-width:0px
+    style More fill:lightgray,stroke-width:0px
+    
+    style Not fill:khaki,stroke-width:0px
+    style And fill:khaki,stroke-width:0px
+
+    style Plus fill:skyblue,stroke-width:0px
+    style Mal fill:skyblue,stroke-width:0px
+
+    style Concat fill:lightgreen,stroke-width:0px

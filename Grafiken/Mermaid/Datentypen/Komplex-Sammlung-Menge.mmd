@@ -1,0 +1,21 @@
+flowchart TB
+    
+    Datentypen["<b>Datentypen</b> der Programmiersprache <i>Python</i>"]
+
+    Datentypen --> Komplex["<b>Komplexe</b> Datentypen"]
+
+    Komplex --> Sammlung["Sammlungen"]
+
+    Sammlung --> Menge["Mengen"]
+
+    Menge --> set["<i>(mutable)</i><br/><code>set</code>"]
+    Menge --> frozenset["<i>(immutable)</i><br/><code>frozenset</code>"]
+
+    style Datentypen fill:black,color:white,stroke-width:0px
+    style Komplex fill:black,color:white,stroke-width:0px
+
+    style Sammlung fill:lightgray,stroke-width:0px
+    style Menge fill:lightgray,stroke-width:0px
+
+    style set fill:lightgreen,stroke-width:0px
+    style frozenset fill:lightgreen,stroke-width:0px
