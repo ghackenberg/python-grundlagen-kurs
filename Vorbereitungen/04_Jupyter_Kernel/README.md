@@ -41,4 +41,4 @@ Als Ausführungsumgebung kannst du die Python Installation verwenden, die du im 
 
 ## Nächster Schritt
 
-**[Lerneinheit 1 - Grundlegende Syntax](../../Lerneinheiten/Einheit_01/README.ipynb)**
+**[Lerneinheit 1 - Programme und Daten](../../Lerneinheiten/Einheit_00/README.ipynb)**
