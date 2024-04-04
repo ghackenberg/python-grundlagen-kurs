@@ -1,0 +1,114 @@
+classDiagram
+
+    direction TB
+
+    class CPU["Zentrale Recheneinheit (CPU)"] {
+        Steuerwerk
+        Rechenwerk
+        Bit[] Adressregister
+        Bit[] Befehlszählerregister
+        Bit[] Befehlsregister
+        Bit[] Statusregister
+        Bit[] Stapelregister
+        Bit[] Interruptregister
+        Bit[][] Register
+    }
+
+    namespace Bussystem {
+        class SteuerbusA {
+            <<Bus>>
+            Bit Leitung_Lesen
+            Bit Leitung_Schreiben
+        }
+        class SteuerbusB {
+            <<Bus>>
+            Bit Leitung_Interrupt_1
+            Bit Leitung_Interrupt_2
+            ...
+            Bit Leitung_Interrupt_k
+        }
+        class Adressbus {
+            <<Bus>>
+            Bit Leitung_Adresse_1
+            Bit Leitung_Adresse_2
+            ...
+            Bit Leitung_Adresse_n
+        }
+        class Datenbus {
+            <<Bus>>
+            Bit Leitung_Daten_1
+            Bit Leitung_Daten_2
+            ...
+            Bit Leitung_Daten_m
+        }
+    }
+
+    class Gerät {
+        <<Abstrakt>>
+        Bit[][] Speicherzellen
+    }
+    class ROM["Festwertspeicher (ROM)"] {
+        <<Konkret>>
+        BIOS
+    }
+    class RAM["Hauptspeicher (RAM)"] {
+        <<Konkret>>
+        Befehle
+        Daten
+    }
+    class Grafikkarte {
+        <<Konkret>>
+        Texturen
+        Geometrien
+        Shader
+    }
+    class Festplatte {
+        <<Abstrakt>>
+    }
+    class HDD {
+        <<Konkret>>
+    }
+    class SSD {
+        <<Konkret>>
+    }
+    class Netzwerkkarte {
+        <<Abstrakt>>
+    }
+    class LAN["LAN-Karte"] {
+        <<Konkret>>
+    }
+    class WLAN["WLAN-Karte"] {
+        <<Konkret>>
+    }
+    class More["..."] {
+        <<Konkret>>
+    }
+
+    CPU --> SteuerbusA : schreibt
+    CPU <-- SteuerbusB : gelesen von
+    CPU --> Adressbus : schreibt
+    CPU <--> Datenbus : schreibt / gelesen von
+
+    SteuerbusA --> Gerät : gelesen von
+    SteuerbusB <-- Gerät : schreibt
+    Adressbus --> Gerät : gelesen von
+    Datenbus <--> Gerät : gelesen von / schreibt
+
+    Gerät <|-- ROM : ist ein
+    Gerät <|-- RAM : ist ein
+    Gerät <|-- Festplatte : ist ein
+    Gerät <|-- Grafikkarte : ist ein
+    Gerät <|-- Netzwerkkarte : ist ein
+    Gerät <|-- More : ist ein
+
+    Festplatte <|-- HDD : ist ein
+    Festplatte <|-- SSD : ist ein
+
+    Netzwerkkarte <|-- LAN : ist ein
+    Netzwerkkarte <|-- WLAN : ist ein
+
+    style CPU fill:khaki
+    style SteuerbusA fill:skyblue
+    style SteuerbusB fill:skyblue
+    style Adressbus fill:lightgreen
+    style Datenbus fill:lightpink
