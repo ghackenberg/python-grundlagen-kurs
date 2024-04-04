@@ -30,7 +30,16 @@ So richtest du deine Lernumgebung ein:
 
 Der Kurs umfasst die folgenden Lerneinheiten:
 
-1. **[Grundlegende Syntax](./Lerneinheiten/Einheit_01/README.ipynb)**
+1. **[Programme und Daten](./Lerneinheiten/Einheit_00/README.ipynb)**
+   - Programme
+     - Grundlegende Programmdefinition
+     - Erweiterte Programmdefinition
+     - Allgemeine Programmdefinition
+   - Daten
+     - Wahrheitswerte
+     - Zahlen
+     - Zeichenketten
+1. **[Grundlegende Python-Syntax](./Lerneinheiten/Einheit_01/README.ipynb)**
    - Kommentare
      - ``# ...``
    - Literale
