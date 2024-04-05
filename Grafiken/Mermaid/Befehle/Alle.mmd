@@ -1,0 +1,51 @@
+flowchart LR
+
+    Befehle["<b>Vereinfachter Befehlssatz</b> einer<br/>zentralen Recheneinheit (CPU)"]
+
+    Befehle --> Transfer["<b>Speicher</b>befehle"]
+    Befehle --> Arithmetisch["<b>Arithmetik</b>befehle"]
+    Befehle --> Logisch["<b>Logik</b>befehle"]
+    Befehle --> Vergleich["<b>Vergleichs</b>befehle"]
+    Befehle --> Sprung["<b>Sprung</b>befehle"]
+
+    Transfer --> MOV["<code>MOV a b</code><br/>Datenaustausch zwischen Hauptspeicher<br/>und einem Prozessorregister"]
+
+    Arithmetisch --> ADD["<code>ADD a b</code><br/>Addition zweier Zahlen"]
+    Arithmetisch --> SUB["<code>SUB a b</code><br/>Subtraktion zweier Zahlen"]
+    Arithmetisch --> MUL["<code>MUL a b</code><br/>Multiplikation zweier Zahlen"]
+    Arithmetisch --> DIV["<code>DIV a b</code><br/>Division zweier Zahlen"]
+
+    Logisch --> AND["<code>AND a b</code><br/>Logische Und-Verknüpfung der Inhalte<br/>zweier Prozessorregister"]
+    Logisch --> OR["<code>OR a b</code><br/>Logische Oder-Verknüpfung der Inhalte<br/>zweier Prozessorregister"]
+    Logisch --> NOT["<code>NOT a</code><br/>Logische Negation des Inhalts<br/>eines Prozessorregisters"]
+
+    Vergleich --> CMP["<code>CMP a b</code><br/>Vergleich der Inhalte<br/>zweier Prozessorregister"]
+
+    Sprung --> JMP["<code>JMP</code><br/>Setzen des Befehlszählers"]
+    Sprung --> JZ["<code>JZ a</code><br/>Setzen des Befehlszählers wenn<br/>Inhalt eines Prozessorregisters null"]
+    Sprung --> JE["<code>JE a b</code><br/>Setzen des Befehlszählers wenn<br/>Inhalt zweier Prozessorregister identisch"]
+
+    style Befehle fill:black,color:white,stroke-width:0px
+
+    style Transfer fill:lightgray,stroke-width:0px
+    style Arithmetisch fill:lightgray,stroke-width:0px
+    style Logisch fill:lightgray,stroke-width:0px
+    style Vergleich fill:lightgray,stroke-width:0px
+    style Sprung fill:lightgray,stroke-width:0px
+
+    style MOV fill:khaki,stroke-width:0px
+
+    style ADD fill:skyblue,stroke-width:0px
+    style SUB fill:skyblue,stroke-width:0px
+    style MUL fill:skyblue,stroke-width:0px
+    style DIV fill:skyblue,stroke-width:0px
+
+    style AND fill:lightgreen,stroke-width:0px
+    style OR fill:lightgreen,stroke-width:0px
+    style NOT fill:lightgreen,stroke-width:0px
+
+    style CMP fill:lightpink,stroke-width:0px
+
+    style JMP fill:plum,stroke-width:0px
+    style JZ fill:plum,stroke-width:0px
+    style JE fill:plum,stroke-width:0px

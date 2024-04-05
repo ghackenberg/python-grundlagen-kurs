@@ -1,0 +1,17 @@
+flowchart
+
+    Befehle["<b>Vereinfachter Befehlssatz</b> einer<br/>zentralen Recheneinheit (CPU)"]
+
+    Befehle --> Logisch["<b>Logik</b>befehle"]
+
+    Logisch --> AND["<code>AND a b</code><br/>Logische Und-Verknüpfung der Inhalte<br/>zweier Prozessorregister"]
+    Logisch --> OR["<code>OR a b</code><br/>Logische Oder-Verknüpfung der Inhalte<br/>zweier Prozessorregister"]
+    Logisch --> NOT["<code>NOT a</code><br/>Logische Negation des Inhalts<br/>eines Prozessorregisters"]
+
+    style Befehle fill:black,color:white,stroke-width:0px
+
+    style Logisch fill:lightgray,stroke-width:0px
+
+    style AND fill:lightgreen,stroke-width:0px
+    style OR fill:lightgreen,stroke-width:0px
+    style NOT fill:lightgreen,stroke-width:0px

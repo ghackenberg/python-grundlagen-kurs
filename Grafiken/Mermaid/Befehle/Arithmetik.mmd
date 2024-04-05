@@ -1,0 +1,19 @@
+flowchart
+
+    Befehle["<b>Vereinfachter Befehlssatz</b> einer<br/>zentralen Recheneinheit (CPU)"]
+
+    Befehle --> Arithmetisch["<b>Arithmetik</b>befehle"]
+
+    Arithmetisch --> ADD["<code>ADD a b</code><br/>Addition zweier Zahlen"]
+    Arithmetisch --> SUB["<code>SUB a b</code><br/>Subtraktion zweier Zahlen"]
+    Arithmetisch --> MUL["<code>MUL a b</code><br/>Multiplikation zweier Zahlen"]
+    Arithmetisch --> DIV["<code>DIV a b</code><br/>Division zweier Zahlen"]
+
+    style Befehle fill:black,color:white,stroke-width:0px
+
+    style Arithmetisch fill:lightgray,stroke-width:0px
+
+    style ADD fill:skyblue,stroke-width:0px
+    style SUB fill:skyblue,stroke-width:0px
+    style MUL fill:skyblue,stroke-width:0px
+    style DIV fill:skyblue,stroke-width:0px

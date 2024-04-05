@@ -1,0 +1,17 @@
+flowchart
+
+    Befehle["<b>Vereinfachter Befehlssatz</b> einer<br/>zentralen Recheneinheit (CPU)"]
+
+    Befehle --> Sprung["<b>Sprung</b>befehle"]
+
+    Sprung --> JMP["<code>JMP</code><br/>Setzen des Befehlszählers"]
+    Sprung --> JZ["<code>JZ a</code><br/>Setzen des Befehlszählers wenn<br/>Inhalt eines Prozessorregisters null"]
+    Sprung --> JE["<code>JE a b</code><br/>Setzen des Befehlszählers wenn<br/>Inhalt zweier Prozessorregister identisch"]
+
+    style Befehle fill:black,color:white,stroke-width:0px
+
+    style Sprung fill:lightgray,stroke-width:0px
+
+    style JMP fill:plum,stroke-width:0px
+    style JZ fill:plum,stroke-width:0px
+    style JE fill:plum,stroke-width:0px

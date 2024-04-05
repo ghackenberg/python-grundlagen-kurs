@@ -1,0 +1,9 @@
+flowchart
+
+    Fetch["<b>Schritt 1 - FETCH</b><br/>Befehl laut Befehlszähler aus dem Hauptspeicher lesen<br/>und in das Befehlsregister schreiben"]
+    Decode["<b>Schritt 2 - DECODE</b><br/>Befehl dekodieren und Verschaltung zwischen Registern<br/>und Rechenwerk abhängig vom Befehl anpassen"]
+    Operands["<b>Schritt 3 - FETCH OPERANDS</b><br/>Operanden aus dem Hauptspeicher lesen<br/>und in weitere befehlsabhängige Register schreiben"]
+    Execute["<b>Schritt 4 - EXECUTE</b><br/>Befehl auf dem Rechenwerk ausführen<br/>und den Befehlszähler gegebenenfalls aktualisieren"]
+    Write["<b>Schritt 5 - WRITE BACK</b><br/>Ergebnis aus einem befehlsabhängigen Register<br/>in den Hauptspeicher zurückschreiben"]
+
+    Fetch ==> Decode ==> Operands ==> Execute ==> Write --Wenn letzter ausgeführter Befehl\n<b>nicht</b> der Stoppbefehl war--> Fetch
