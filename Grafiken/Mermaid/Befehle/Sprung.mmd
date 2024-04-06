@@ -4,14 +4,14 @@ flowchart
 
     Befehle --> Sprung["<b>Sprung</b>befehle"]
 
-    Sprung --> JMP["<code>JMP</code><br/>Setzen des Befehlszählers"]
-    Sprung --> JZ["<code>JZ a</code><br/>Setzen des Befehlszählers wenn<br/>Inhalt eines Prozessorregisters null"]
-    Sprung --> JE["<code>JE a b</code><br/>Setzen des Befehlszählers wenn<br/>Inhalt zweier Prozessorregister identisch"]
+    Sprung --> JB["<code>JB a</code><br/>Setzen des Befehlszählers wenn<br/>der letzte arithmetische Befehl<br/><b>einen negativen Wert</b> ergeben hat"]
+    Sprung --> JZ["<code>JZ a</code><br/>Setzen des Befehlszählers wenn<br/>der letzte arithmetische Befehl<br/><b>den Wert null</b> ergeben hat"]
+    Sprung --> JA["<code>JA a</code><br/>Setzen des Befehlszählers wenn<br/>der letzte arithmetische Befehl<br/><b>einen positiven Wert</b> ergeben hat"]
 
     style Befehle fill:black,color:white,stroke-width:0px
 
     style Sprung fill:lightgray,stroke-width:0px
 
-    style JMP fill:plum,stroke-width:0px
+    style JB fill:plum,stroke-width:0px
     style JZ fill:plum,stroke-width:0px
-    style JE fill:plum,stroke-width:0px
+    style JA fill:plum,stroke-width:0px
