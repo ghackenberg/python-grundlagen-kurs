@@ -10,8 +10,9 @@ flowchart
     Boolsch --> True["<code>True</code>"]
     Boolsch --> False["<code>False</code>"]
 
-    Numerisch --> Ganz["<code>5</code>"]
-    Numerisch --> Bruch["<code>5.127</code>"]
+    Numerisch --> Ganz["<b>Ganze</b> Zahl<br/><code>5</code>"]
+    Numerisch --> Bruch["<b>Relle</b> Zahl<br/><code>5.127</code>"]
+    Numerisch --> Komplex["<b>Imaginäre</b> Zahl</br><code>5.127j</code>"]
 
     Zeichenketten --> String["<code>&quot;abc&quot;</code>"]
 
@@ -27,5 +28,6 @@ flowchart
     
     style Ganz fill:skyblue,stroke-width:0px
     style Bruch fill:skyblue,stroke-width:0px
+    style Komplex fill:skyblue,stroke-width:0px
 
     style String fill:lightgreen,stroke-width:0px
