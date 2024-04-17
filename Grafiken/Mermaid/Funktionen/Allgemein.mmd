@@ -1,15 +1,43 @@
 flowchart
 
-    Funktionen
+    Funktionen --> Typbestimmung
+    Funktionen --> Typkonvertierung
+    Funktionen --> Zahlenfunktionen
+    Funktionen --> EA["Eingabe/Ausgabe"]
 
-    Funktionen --> Str["<code>str(...)</code>"]
-    Funktionen --> Type["<code>type(...)</code>"]
-    Funktionen --> Print["<code>print(...)</code>"]
-    Funktionen --> Input["<code>input(...)</code>"]
+    Typbestimmung  --> Type["<code>type(...)</code>"]
+
+    Typkonvertierung --> Bool["<code>bool(...)</code>"]
+    Typkonvertierung --> Int["<code>int(...)</code>"]
+    Typkonvertierung --> Float["<code>float(...)</code>"]
+    Typkonvertierung --> Complex["<code>complex(...)</code>"]
+    Typkonvertierung --> Str["<code>str(...)</code>"]
+
+    Zahlenfunktionen --> Abs["<code>abs(...)</code>"]
+    Zahlenfunktionen --> Pow["<code>pow(...)</code>"]
+
+    EA --> Print["<code>print(...)</code>"]
+    EA --> Input["<code>input(...)</code>"]
+    EA --> Open["<code>open(...)</code>"]
 
     style Funktionen fill:black,color:white,stroke-width:0px
 
-    style Str fill:khaki,stroke-width:0px
-    style Type fill:skyblue,stroke-width:0px
-    style Print fill:lightgreen,stroke-width:0px
+    style Typbestimmung fill:lightgray,stroke-width:0px
+    style Typkonvertierung fill:lightgray,stroke-width:0px
+    style Zahlenfunktionen fill:lightgray,stroke-width:0px
+    style EA fill:lightgray,stroke-width:0px
+
+    style Type fill:khaki,stroke-width:0px
+
+    style Bool fill:skyblue,stroke-width:0px
+    style Int fill:skyblue,stroke-width:0px
+    style Float fill:skyblue,stroke-width:0px
+    style Complex fill:skyblue,stroke-width:0px
+    style Str fill:skyblue,stroke-width:0px
+
+    style Abs fill:lightgreen,stroke-width:0px
+    style Pow fill:lightgreen,stroke-width:0px
+    
+    style Print fill:lightpink,stroke-width:0px
     style Input fill:lightpink,stroke-width:0px
+    style Open fill:lightpink,stroke-width:0px

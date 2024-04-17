@@ -61,10 +61,10 @@ Der Kurs umfasst die folgenden Lerneinheiten:
    - **Variablen**
      - ``x = ...``
    - **Funktionsaufrufe**
-     - ``type(...)``
-     - ``print(...)``
-     - ``input(...)``
-     - ``open(...)``
+     - Typbesetimmung: ``type(...)``
+     - Typkonvertierung: ``bool(...)``, ``int(...)``, ``float(...)``, ``complex(...)``, ``str(...)``
+     - Zahlenfunktionen: ``abs(...)``, ``pow(...)``
+     - Eingabe/Ausgabe: ``print(...)``, ``input(...)``, ``open(...)``
    - **Methodenaufrufe**
      - ``f.read(...)``
      - ``f.readline()``
