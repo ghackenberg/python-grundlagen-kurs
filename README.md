@@ -30,59 +30,71 @@ So richtest du deine Lernumgebung ein:
 
 Der Kurs umfasst die folgenden Lerneinheiten:
 
-1. **[Programme und Daten](./Lerneinheiten/Einheit_00/README.ipynb)**
-   - Programme
-     - Grundlegende Programmdefinition
-     - Erweiterte Programmdefinition
-     - Allgemeine Programmdefinition
-   - Daten
+1. **[Grundlegende Definitionen](./Lerneinheiten/Einheit_00/README.ipynb)**
+   - **Computer**
+     - Von-Neumann-Architektur
+     - Von-Neumann-Zyklus
+   - **Befehle**
+     - Speicherbefehle
+     - Logische Befehle
+     - Arithmetische Befehle
+     - Sprungbefehle
+   - **Daten**
      - Wahrheitswerte
      - Zahlen
      - Zeichenketten
+   - **Programme**
+     - Grundlegende Programmdefinition
+     - Erweiterte Programmdefinition
+     - Allgemeine Programmdefinition
 1. **[Grundlegende Python-Syntax](./Lerneinheiten/Einheit_01/README.ipynb)**
-   - Kommentare
+   - **Kommentare**
      - ``# ...``
-   - Literale
-     - ``True``, ``False``, ``5``, ``5.5``, ``"..."``
-   - Operatoren
-     - ``not``, ``and``, ``+``, ``*``
-   - Variablen
+   - **Literale**
+     - Wahrheitswerte: ``True`` und ``False``
+     - Zahlen: ``5``, ``5.5`` und `5j`
+     - Zeichenketten: ``"..."``
+   - **Operatoren**
+     - Wahrheitswerte: ``not ...``, ``... and ...``, ``... or ...``
+     - Zahlen: ``... + ...``, `... - ...`, ``... * ...``, `... / ...`, `... // ...` und `... % ...`
+     - Zeichenketten: ``"..." + "..."`` und ``f"..."``
+   - **Variablen**
      - ``x = ...``
-   - Funktionen und Funktionsaufrufe
+   - **Funktionsaufrufe**
      - ``type(...)``
      - ``print(...)``
      - ``input(...)``
      - ``open(...)``
-   - Objektmethoden und Methodenaufrufe
+   - **Methodenaufrufe**
      - ``f.read(...)``
      - ``f.readline()``
      - ``f.write(...)``
      - ``f.close()``
-1. **[Datentypen und Operatoren / Funktionen](./Lerneinheiten/Einheit_02/README.ipynb)**
-   - Datentypen
-     - ``bool``
-     - ``int``, ``float`` und ``complex``
-     - ``list``, ``tuple`` und ``range``
-     - ``str``
-     - ``set`` und ``frozenset``
-     - ``dict``
-   - Operatoren
-     - Boolsche Operatoren
-     - Arithmetische Operatoren
-     - Bitweise Operatoren
+   - **Importe**
+     - `import ...`
+1. **[Komplexe Datentypen](./Lerneinheiten/Einheit_02/README.ipynb)**
+   - **Sammlungen**
+     - Sequenzen:
+       - Datensequenzen: ``list``, ``tuple`` und ``range``
+       - Zeichenketten: ``str``
+       - Bytesequenzen: ``bytes``, `bytearray`, `memoryview`
+     - Mengen: ``set`` und ``frozenset``
+     - Abbildungen: ``dict``
+   - **Klassen**
+     - ``class``
 1. **[Verzweigungen und Schleifen](./Lerneinheiten/Einheit_03/README.ipynb)**
-   - Verzweigungen
+   - **Verzweigungen**
      - ``if ... elif ... else ...``
      - ``match ... case ...``
      - ``try ... throw ... catch ...``
-   - Schleifen
+   - **Schleifen**
      - ``for ...``
      - ``while ...``
 1. **[Funktionsdefinitionen und Funktionsaufrufe](./Lerneinheiten/Einheit_04/README.ipynb)**
-   - Funktionsdefinitionen
+   - **Funktionsdefinitionen**
      - Signatur (Name, Parameter, Typenhinweise, Standardwerte)
      - Körper (``return ... throw ...``)
-   - Funktionsaufrufe
+   - **Funktionsaufrufe**
      - Positionsparameter
      - Schlüsselwortparameter
      - *evtl. Rekursion*
