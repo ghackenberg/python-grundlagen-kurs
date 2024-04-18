@@ -30,7 +30,7 @@ So richtest du deine Lernumgebung ein:
 
 Der Kurs umfasst die folgenden Lerneinheiten:
 
-1. **[Grundlegende Definitionen](./Lerneinheiten/Einheit_00/README.ipynb)**
+1. **[Hardware Grundlagen](./Lerneinheiten/Einheit_01/README.ipynb)**
    - **Computer**
      - Von-Neumann-Architektur
      - Von-Neumann-Zyklus
@@ -47,42 +47,45 @@ Der Kurs umfasst die folgenden Lerneinheiten:
      - Grundlegende Programmdefinition
      - Erweiterte Programmdefinition
      - Allgemeine Programmdefinition
-1. **[Grundlegende Python-Syntax](./Lerneinheiten/Einheit_01/README.ipynb)**
+1. **[Grundlegende Syntax und Semantik](./Lerneinheiten/Einheit_02/README.ipynb)**
    - **Kommentare**
      - ``# ...``
    - **Literale**
-     - Wahrheitswerte: ``True`` und ``False``
-     - Zahlen: ``5``, ``5.5`` und `5j`
-     - Zeichenketten: ``"..."``
+     - ``True`` und `False`
+     - `5`, `5.5` und `5.5j`
+     - `"..."` und `'...'`
    - **Operatoren**
-     - Wahrheitswerte: ``not ...``, ``... and ...``, ``... or ...``
-     - Zahlen: ``... + ...``, `... - ...`, ``... * ...``, `... / ...`, `... // ...` und `... % ...`
-     - Zeichenketten: ``"..." + "..."`` und ``f"..."``
+     - ``not ...``, ``... and ...`` und ``... or ...``
+     - ``... + ...``, `... - ...`, ``... * ...``, `... / ...`, `... // ...` und `... % ...`
+     - ``"..." + "..."``, ``f"..."`` und ``"..."[...]``
+   - **Klammerungen**
+     - ``(... + ...) * ...``
+     - ``... * (... + ...)``
    - **Variablen**
      - ``x = ...``
-   - **Funktionsaufrufe**
+   - **Funktionen**
      - Typbesetimmung: ``type(...)``
      - Typkonvertierung: ``bool(...)``, ``int(...)``, ``float(...)``, ``complex(...)``, ``str(...)``
-     - Zahlenfunktionen: ``abs(...)``, ``pow(...)``
-     - Eingabe/Ausgabe: ``print(...)``, ``input(...)``, ``open(...)``
-   - **Methodenaufrufe**
-     - ``f.read(...)``
-     - ``f.readline()``
-     - ``f.write(...)``
-     - ``f.close()``
-   - **Importe**
-     - `import ...`
-1. **[Komplexe Datentypen](./Lerneinheiten/Einheit_02/README.ipynb)**
-   - **Sammlungen**
-     - Sequenzen:
-       - Datensequenzen: ``list``, ``tuple`` und ``range``
-       - Zeichenketten: ``str``
-       - Bytesequenzen: ``bytes``, `bytearray`, `memoryview`
-     - Mengen: ``set`` und ``frozenset``
-     - Abbildungen: ``dict``
-   - **Klassen**
-     - ``class``
-1. **[Verzweigungen und Schleifen](./Lerneinheiten/Einheit_03/README.ipynb)**
+     - Eingabe/Ausgabe: ``print(...)``, ``input(...)``
+   - **Objekte**
+     - Eigenschaften
+     - Methoden
+1. **[Komplexe Datentypen und Operatoren](./Lerneinheiten/Einheit_04/README.ipynb)**
+   - **Sequenzen**
+     - Datensequenzen:
+       - ``[...]``
+       - ``tuple([...])``
+       - ``range(...)``
+     - Bytesequenzen:
+       - ``bytes(...)``
+       - `bytearray(...)`
+       - `memoryview(...)`
+   - **Mengen**
+     - ``set([...])``
+     - ``frozenset([...])``
+   - **Abbildungen**
+     - ``{...}``
+1. **[Verzweigungen und Schleifen](./Lerneinheiten/Einheit_05/README.ipynb)**
    - **Verzweigungen**
      - ``if ... elif ... else ...``
      - ``match ... case ...``
@@ -90,7 +93,7 @@ Der Kurs umfasst die folgenden Lerneinheiten:
    - **Schleifen**
      - ``for ...``
      - ``while ...``
-1. **[Funktionsdefinitionen und Funktionsaufrufe](./Lerneinheiten/Einheit_04/README.ipynb)**
+1. **[Funktionen, Parameter und Rückabewerte](./Lerneinheiten/Einheit_06/README.ipynb)**
    - **Funktionsdefinitionen**
      - Signatur (Name, Parameter, Typenhinweise, Standardwerte)
      - Körper (``return ... throw ...``)
@@ -98,30 +101,38 @@ Der Kurs umfasst die folgenden Lerneinheiten:
      - Positionsparameter
      - Schlüsselwortparameter
      - *evtl. Rekursion*
-1. **[Klassendefinitionen und Instanziierung](./Lerneinheiten/Einheit_05/README.ipynb)**
-   - Definitionen
+   - **Standardfunktionen**
+     - Typbesetimmung: ``type(...)``
+     - Typkonvertierung: ``bool(...)``, ``int(...)``, ``float(...)``, ``complex(...)`` und ``str(...)``
+     - Zahlenfunktionen: `abs(...)` und `pow(...)`
+     - Eingabe/Ausgabe: ``print(...)`` und ``input(...)``
+1. **[Klassen, Eigenschaften und Methoden](./Lerneinheiten/Einheit_07/README.ipynb)**
+   - **Klassendefinitionen**
      - ``class X``
-   - Instanzen
-     - ``x = X(...)``
-   - Konstruktoren
-     - ``def __init__(self, ...)``
-   - Felder
      - ``self.x = ...``
-   - Methoden
+     - ``def __init__(self, ...)``
      - ``def x(self, ...)``
-   - Vererbung
      - ``class X(Y)``
-   - Überschreibung
      - ``super()``
-1. **[Module und Kapselung](./Lerneinheiten/Einheit_06/README.ipynb)**
-   - ``export ...``
-   - ``import ...``
-   - ``__init__.py``
-   - ``pip install ...``
-1. **[Datenanalyse und -visualisierung](./Lerneinheiten/Einheit_07/README.ipynb)**
-   - ``matplotlib``
-   - ``numpy``
-   - ``scipy``
-   - ``pandas``
-1. **[Grafische Benutzerschnittstellen](./Lerneinheiten/Einheit_08/README.ipynb)**
-   - ``tkinter``
+   - **Klasseninstanziierungen**
+     - ``x = X(...)``
+1. **[Module und Importe](./Lerneinheiten/Einheit_08/README.ipynb)**
+   - **Modulmechanismus**
+     - ``__init__.py``
+     - ``import ...``
+   - **Standardmodule**
+     - `sys`
+     - `os`
+     - `pathlib`
+     - `math`
+     - `cmath`
+     - `tkinter`
+   - **Modulinstallation**
+     - ``pip install ...``
+1. **[Anwendungen](./Lerneinheiten/Einheit_09/README.ipynb)**
+   - **Datenanalyse und -visualisierung**
+     - ``numpy``
+     - ``scipy``
+     - ``pandas``
+     - ``matplotlib``
+   - ...

@@ -1,0 +1,3 @@
+Erste Zeile aus der Eingabedatei!
+Zweite Zeile aus der Eingabedatei!
+Dritte Zeile aus der Eingabedatei!
