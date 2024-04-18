@@ -70,6 +70,10 @@ Der Kurs umfasst die folgenden Lerneinheiten:
    - **Objekte**
      - Eigenschaften
      - Methoden
+   - **Module**
+     - `sys`
+     - `os`
+     - `math`
 1. **[Komplexe Datentypen und Operatoren](./Lerneinheiten/Einheit_04/README.ipynb)**
    - **Sequenzen**
      - Datensequenzen:
