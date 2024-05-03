@@ -52,6 +52,9 @@ i = 5
 if i > 0 and i < 10:
     print("x")
 
+if "ab" in "itrjzhefjhdflhg  dfghdfgh  ab fegthzidfh":
+    print("ja!")
+
 #################################
 # Verzweigungsart 2: match-case #
 #################################
@@ -83,7 +86,15 @@ match Wert:
 
 try:
     print("a")
-    raise TypeError()
+    a = 5,6
+    
+    # Ausnahmen werden durch Operator ausgelöst
+    a[2] # -> IndexError!
+    a[0] = 7 # -> TypeError!
+
+    # Ausnahme wird manuell ausgelöst
+    raise TypeError() # -> TypeError!
+    
     print("b")
 except IndexError:
     print("c")

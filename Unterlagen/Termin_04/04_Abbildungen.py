@@ -20,7 +20,7 @@ j = { "a": { 1: 1 }}
 k = { int: "int", float: "float" }
 l = { x + "a": y + 1 }
 
-# Ergebnis der Schlüsselberechnung muss hashbarer Wert sein!
+# Ergebnis der Schlüsselberechnung muss *hashbarer* Wert sein!
 # Ergebnis der Wertberechnung kann beliebig sein.
 
 
@@ -37,6 +37,9 @@ print(k[int]) # -> "int"
 k[int] = "integer"
 
 print(k[int]) # -> "integer"
+
+# Anmerkung:
+"abc"[1] = "d"
 
 # Operator in / not in
 
