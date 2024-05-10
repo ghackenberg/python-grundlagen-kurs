@@ -74,7 +74,7 @@ Der Kurs umfasst die folgenden Lerneinheiten:
      - `sys`
      - `os`
      - `math`
-1. **[Komplexe Datentypen und Operatoren](./Lerneinheiten/Einheit_04/README.ipynb)**
+1. **[Komplexe Datentypen und Operatoren](./Lerneinheiten/Einheit_03/README.ipynb)**
    - **Sequenzen**
      - Datensequenzen:
        - ``[...]``
