@@ -31,9 +31,9 @@ So richtest du deine Lernumgebung ein:
 Der Kurs umfasst die folgenden Lerneinheiten:
 
 1. [Computer, Befehle, Daten und Programme](./Lerneinheiten/Einheit_01/README.ipynb)
-1. [Kommentare, Literale, Operatoren, Klammerung, Variablen, Funktionen, Objekte und Module](./Lerneinheiten/Einheit_02/README.ipynb)
-1. [Typinformationen und Variablengültigkeit + Listen, Abbildungen und Verzweigungen](./Unterlagen/Termin_04/)
-1. [Tupel, Ranges und Dauerschleifen](./Unterlagen/Termin_05/)
-1. [Anwendungen der Dauerschleife (Maximum, Sortierung und Binärsuche)](./Unterlagen/Termin_06/)
-1. [Aufzählschleifen und deren Anwendungen (Statistikberechnungen)](./Unterlagen/Termin_07/)
-1. [Funktionen, Rekursion und deren Anwendungen (Quicksort, Türme von Hanoi)](./Unterlagen/Termin_08/)
+1. [Kommentare, Literale, Operatoren, Klammerung, Variablen, Funktionen, *Objekte und Module*](./Lerneinheiten/Einheit_02/README.ipynb)
+1. [Funktion (cont'd), Variablensichtbarkeit, Listen, Abbildungen und Verzweigungen](./Unterlagen/Termin_04/)
+1. [Tupel, Ranges, Dauerschleifen und einfache Anwendungen (Exponentialfunktion, Summe, Zahleneingabe)](./Unterlagen/Termin_05/)
+1. [Erweiterte Anwendungen der Dauerschleife (Maximum, Sortierung und Binärsuche)](./Unterlagen/Termin_06/)
+1. [Aufzählschleifen und deren Anwendungen (Extremum, Mittelwert, Standardabweichung, Histogramm)](./Unterlagen/Termin_07/)
+1. [Funktionen, Rekursion und deren Anwendungen (Exponentialfunktion, Fakultätsfunktion, Blattpfade, Quicksort, Türme von Hanoi)](./Unterlagen/Termin_08/)
