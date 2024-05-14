@@ -21,122 +21,19 @@ Der Kurs hat die folgenden Lernziele:
 
 So richtest du deine Lernumgebung ein:
 
-1. **[Python installieren](./Vorbereitungen/01_Python/README.md)**
-1. **[Visual Studio Code installieren](./Vorbereitungen/02_Visual_Studio_Code/README.md)**
-1. **[Visual Studio Code Erweiterungen installieren](./Vorbereitungen/03_Visual_Studio_Code_Erweiterungen/README.md)**
-1. **[Jupyter Kernel installieren](./Vorbereitungen/04_Jupyter_Kernel/README.md)**
+1. [Python installieren](./Vorbereitungen/01_Python/README.md)
+1. [Visual Studio Code installieren](./Vorbereitungen/02_Visual_Studio_Code/README.md)
+1. [Visual Studio Code Erweiterungen installieren](./Vorbereitungen/03_Visual_Studio_Code_Erweiterungen/README.md)
+1. [Jupyter Kernel installieren](./Vorbereitungen/04_Jupyter_Kernel/README.md)
 
 ## 📋 Lerneinheiten
 
 Der Kurs umfasst die folgenden Lerneinheiten:
 
-1. **[Hardware Grundlagen](./Lerneinheiten/Einheit_01/README.ipynb)**
-   - **Computer**
-     - Von-Neumann-Architektur
-     - Von-Neumann-Zyklus
-   - **Befehle**
-     - Speicherbefehle
-     - Logische Befehle
-     - Arithmetische Befehle
-     - Sprungbefehle
-   - **Daten**
-     - Wahrheitswerte
-     - Zahlen
-     - Zeichenketten
-   - **Programme**
-     - Grundlegende Programmdefinition
-     - Erweiterte Programmdefinition
-     - Allgemeine Programmdefinition
-1. **[Grundlegende Syntax und Semantik](./Lerneinheiten/Einheit_02/README.ipynb)**
-   - **Kommentare**
-     - ``# ...``
-   - **Literale**
-     - ``True`` und `False`
-     - `5`, `5.5` und `5.5j`
-     - `"..."` und `'...'`
-   - **Operatoren**
-     - ``not ...``, ``... and ...`` und ``... or ...``
-     - ``... + ...``, `... - ...`, ``... * ...``, `... / ...`, `... // ...` und `... % ...`
-     - ``"..." + "..."``, ``f"..."`` und ``"..."[...]``
-   - **Klammerungen**
-     - ``(... + ...) * ...``
-     - ``... * (... + ...)``
-   - **Variablen**
-     - ``x = ...``
-   - **Funktionen**
-     - Typbesetimmung: ``type(...)``
-     - Typkonvertierung: ``bool(...)``, ``int(...)``, ``float(...)``, ``complex(...)``, ``str(...)``
-     - Eingabe/Ausgabe: ``print(...)``, ``input(...)``
-   - **Objekte**
-     - Eigenschaften
-     - Methoden
-   - **Module**
-     - `sys`
-     - `os`
-     - `math`
-1. **[Komplexe Datentypen und Operatoren](./Lerneinheiten/Einheit_03/README.ipynb)**
-   - **Sequenzen**
-     - Datensequenzen:
-       - ``[...]``
-       - ``tuple([...])``
-       - ``range(...)``
-     - Bytesequenzen:
-       - ``bytes(...)``
-       - `bytearray(...)`
-       - `memoryview(...)`
-   - **Mengen**
-     - ``set([...])``
-     - ``frozenset([...])``
-   - **Abbildungen**
-     - ``{...}``
-1. **[Verzweigungen und Schleifen](./Lerneinheiten/Einheit_05/README.ipynb)**
-   - **Verzweigungen**
-     - ``if ... elif ... else ...``
-     - ``match ... case ...``
-     - ``try ... throw ... catch ...``
-   - **Schleifen**
-     - ``for ...``
-     - ``while ...``
-1. **[Funktionen, Parameter und Rückabewerte](./Lerneinheiten/Einheit_06/README.ipynb)**
-   - **Funktionsdefinitionen**
-     - Signatur (Name, Parameter, Typenhinweise, Standardwerte)
-     - Körper (``return ... throw ...``)
-   - **Funktionsaufrufe**
-     - Positionsparameter
-     - Schlüsselwortparameter
-     - *evtl. Rekursion*
-   - **Standardfunktionen**
-     - Typbesetimmung: ``type(...)``
-     - Typkonvertierung: ``bool(...)``, ``int(...)``, ``float(...)``, ``complex(...)`` und ``str(...)``
-     - Zahlenfunktionen: `abs(...)` und `pow(...)`
-     - Eingabe/Ausgabe: ``print(...)`` und ``input(...)``
-1. **[Klassen, Eigenschaften und Methoden](./Lerneinheiten/Einheit_07/README.ipynb)**
-   - **Klassendefinitionen**
-     - ``class X``
-     - ``self.x = ...``
-     - ``def __init__(self, ...)``
-     - ``def x(self, ...)``
-     - ``class X(Y)``
-     - ``super()``
-   - **Klasseninstanziierungen**
-     - ``x = X(...)``
-1. **[Module und Importe](./Lerneinheiten/Einheit_08/README.ipynb)**
-   - **Modulmechanismus**
-     - ``__init__.py``
-     - ``import ...``
-   - **Standardmodule**
-     - `sys`
-     - `os`
-     - `pathlib`
-     - `math`
-     - `cmath`
-     - `tkinter`
-   - **Modulinstallation**
-     - ``pip install ...``
-1. **[Anwendungen](./Lerneinheiten/Einheit_09/README.ipynb)**
-   - **Datenanalyse und -visualisierung**
-     - ``numpy``
-     - ``scipy``
-     - ``pandas``
-     - ``matplotlib``
-   - ...
+1. [Computer, Befehle, Daten und Programme](./Lerneinheiten/Einheit_01/README.ipynb)
+1. [Kommentare, Literale, Operatoren, Klammerung, Variablen, Funktionen, Objekte und Module](./Lerneinheiten/Einheit_02/README.ipynb)
+1. [Typinformationen und Variablengültigkeit + Listen, Abbildungen und Verzweigungen](./Unterlagen/Termin_04/)
+1. [Tupel, Ranges und Dauerschleifen](./Unterlagen/Termin_05/)
+1. [Anwendungen der Dauerschleife (Maximum, Sortierung und Binärsuche)](./Unterlagen/Termin_06/)
+1. [Aufzählschleifen und deren Anwendungen (Statistikberechnungen)](./Unterlagen/Termin_07/)
+1. [Funktionen, Rekursion und deren Anwendungen (Quicksort, Türme von Hanoi)](./Unterlagen/Termin_08/)
