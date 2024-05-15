@@ -1,0 +1,43 @@
+flowchart
+
+    Drive[(C:)]
+
+    Drive --> Users
+    Drive --> Programs
+    Drive --> Windows
+    Drive --> DriveMore[...]
+
+    Users --> UserA
+    Users --> UsersMore[...]
+
+    UserA --> Downloads
+    UserA --> Images
+    UserA --> UserAMore[...]
+
+    Downloads --> DownloadA([Download A.zip])
+    Downloads --> DownloadsMore[...]
+
+    Images --> ImageA([Image A.jpg])
+    Images --> ImagesMore[...]
+
+    Programs --> VSCode
+    Programs --> ProgramsMore[...]
+
+    VSCode --> VSCodeMore[...]
+
+    Windows --> WindowsMore[...]
+
+    style Drive fill:gold,stroke:orange
+
+    style DriveMore fill:transparent,stroke:transparent
+    style UsersMore fill:transparent,stroke:transparent
+    style UserAMore fill:transparent,stroke:transparent
+    style DownloadsMore fill:transparent,stroke:transparent
+    style ImagesMore fill:transparent,stroke:transparent
+    style ProgramsMore fill:transparent,stroke:transparent
+    style VSCodeMore fill:transparent,stroke:transparent
+    style WindowsMore fill:transparent,stroke:transparent
+
+    style DownloadA fill:lightgreen,stroke:green
+    style ImageA fill:lightgreen,stroke:green
+
