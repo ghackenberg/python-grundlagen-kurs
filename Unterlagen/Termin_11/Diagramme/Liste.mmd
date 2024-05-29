@@ -1,0 +1,33 @@
+flowchart LR
+
+    None_1 ~~~ Element_1
+
+    Liste --start--> Element_1
+    
+    Element_1 --voriges --> None_1
+    Element_1 --nächstes--> Element_2
+    Element_2 --voriges--> Element_1
+
+    Element_2 --nächstes--> Element_3
+    Element_3 --voriges--> Element_2
+
+    Element_3 --nächstes --> None_2
+
+    Liste --ende--> Element_3
+
+    None_1["<code>None</code>"]
+    None_2["<code>None</code>"]
+
+    Element_1["<b>Element 1</b><br/><br/><code>voriges = None</code><br/><code>nächstes = Element 2</code><br/><code>wert = &lt;x&gt;</code>"]
+    Element_2["<b>Element ...</b><br/><br/><code>voriges = Element 1</code><br/><code>nächstes = Element 3</code><br/><code>wert = &lt;y&gt;</code>"]
+    Element_3["<b>Element n</b><br/><br/><code>voriges = Element 2</code><br/><code>nächstes = None</code><br/><code>wert = &lt;z&gt;</code>"]
+
+    Liste["<b>Liste</b><br/><br/><code>start = Element 1</code><br/><code>ende = Element n</code><br/><br/><code>...</code>"]
+
+    style None_1 fill:white
+    style None_2 fill:white
+
+    style Element_1 fill:yellow,stroke:gold
+    style Element_2 fill:yellow,stroke:gold
+    style Element_3 fill:yellow,stroke:gold
+
