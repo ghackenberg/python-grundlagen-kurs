@@ -2,9 +2,7 @@
 
 ![Vorschaubild](./Grafiken/LibreOffice/Vorschaubild.png)
 
-Dieses Repository enthält Unterlagen für einen Python-Kurs, den wir an der [Fakultät für Technik und angewandte Naturwissenschaften](https://www.fh-ooe.at/campus-wels/) der [Fachhochschule Oberösterreich](https://www.fh-ooe.at) für Einsteiger in unterschiedlichen Studiengängen und -richtungen unterrichten.
-
-Dieses Dokument ist wie folgt gegliedert:
+Dieses Repository enthält Unterlagen für einen Python-Kurs, den wir an der [Fakultät für Technik und angewandte Naturwissenschaften](https://www.fh-ooe.at/campus-wels/) der [Fachhochschule Oberösterreich](https://www.fh-ooe.at) für Einsteiger in unterschiedlichen Studiengängen und -richtungen unterrichten. Dieses Dokument ist wie folgt gegliedert:
 
 - 🎯 **Lernziele** - wann sollte ich den Kurs machen?
 - ⚙️ **Vorbereitungen** - wie muss ich meine Lernumgebung einrichten?
@@ -28,7 +26,7 @@ So richtest du deine Lernumgebung ein:
 
 ## 📋 Lerneinheiten
 
-Der Kurs umfasst die folgenden Lerneinheiten:
+Und nun kannst du dich in deinem Tempo durch die Lerneinheiten arbeiten:
 
 1. Grundlagen
    1. [Computer, Befehle, Daten und Programme](./Lerneinheiten/01_Computer/README.ipynb)
@@ -52,27 +50,27 @@ Der Kurs umfasst die folgenden Lerneinheiten:
    1. [Anwendungen - Minimum](./Lerneinheiten/04_Dauerschleifen/03_Minimum.ipynb)
    1. [Anwendungen - Binärsuche](./Lerneinheiten/04_Dauerschleifen/04_Binärsuche.ipynb)
    1. [Anwendungen - Sortierung](./Lerneinheiten/04_Dauerschleifen/05_Sortierung.ipynb)
-   1. [**Übungen zu Dauerschleifen**](./Lerneinheiten/10_Übungen/01_Dauerschleifen.ipynb)
+   1. [**Übungen zu Dauerschleifen**](./Lerneinheiten/10_Übungen/04_Dauerschleifen.ipynb)
 1. Aufzählschleifen (`for`)
    1. [Einführung](./Lerneinheiten/05_Aufzählschleifen/01_Einführung.ipynb)
    1. [Anwendungen - Minimum, Maximum](./Lerneinheiten/05_Aufzählschleifen/02_Extremum.ipynb)
    1. [Anwendungen - Mittelwert, Standardabweichung, Histogramm](./Lerneinheiten/05_Aufzählschleifen/03_Statistik.ipynb)
-   1. [**Übungen zu Aufzählschleifen**](./Lerneinheiten/10_Übungen/02_Aufzählschleifen.ipynb)
+   1. [**Übungen zu Aufzählschleifen**](./Lerneinheiten/10_Übungen/05_Aufzählschleifen.ipynb)
 1. Funktionen *(custom)*
    1. [Einführung - Funktionsdefinitionen](./Lerneinheiten/06_Funktionen/01_Einführung.ipynb)
    1. [Einführung - Variablengültigkeit](./Lerneinheiten/06_Funktionen/02_Variablengültigkeit.ipynb)
    1. [Anwendungen - Robuste Eingabe, Maximum, Sortierung](./Lerneinheiten/06_Funktionen/03_Anwendungen.ipynb)
-   1. [**Übungen zu Funktionen**](./Lerneinheiten/10_Übungen/03_Funktionen.ipynb)
+   1. [**Übungen zu Funktionen**](./Lerneinheiten/10_Übungen/06_Funktionen.ipynb)
 1. Rekursionen
    1. [Einführung](./Lerneinheiten/07_Rekursionen/01_Einführung.ipynb)
    1. [Anwendungen - Schnelle Sortierung (Quicksort)](./Lerneinheiten/07_Rekursionen/02_Quicksort.ipynb)
    1. [Anwendungen - Türme von Hanoi](./Lerneinheiten/07_Rekursionen/03_Hanoi.ipynb)
-   1. [**Übungen zu Rekursionen**](./Lerneinheiten/10_Übungen/04_Rekursionen.ipynb)
+   1. [**Übungen zu Rekursionen**](./Lerneinheiten/10_Übungen/07_Rekursionen.ipynb)
 1. Baumstrukturen
    1. [Datenstrukturen](./Lerneinheiten/08_Bäume/01_Datenstrukturen.ipynb)
    1. [Anwendungen - Blattpfade](./Lerneinheiten/08_Bäume/02_Blattpfade.ipynb)
    1. [Anwendungen - Baumtiefe](./Lerneinheiten/08_Bäume/03_Baumtiefe.ipynb)
-   1. [**Übungen zu Baumstrukturen**](./Lerneinheiten/10_Übungen/05_Baumstrukturen.ipynb)
+   1. [**Übungen zu Baumstrukturen**](./Lerneinheiten/10_Übungen/08_Baumstrukturen.ipynb)
 1. Graphstrukturen
    1. [Datenstrukturen](./Lerneinheiten/09_Graphen/01_Datenstrukturen.ipynb)
    1. [Anwendungen - Pfadauflistung](./Lerneinheiten/09_Graphen/02_Pfadauflistung.ipynb)
