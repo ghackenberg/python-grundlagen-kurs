@@ -37,7 +37,7 @@ Und nun kannst du dich in deinem Tempo durch die Lerneinheiten arbeiten:
    1. [Klammerungen](./Lerneinheiten/02_Grundlagen/04_Klammerungen.ipynb)
    1. [Variablen](./Lerneinheiten/02_Grundlagen/05_Variablen.ipynb)
    1. [Funktionen *(built-in)*](./Lerneinheiten/02_Grundlagen/06_Funktionen.ipynb)
-   1. [Methoden](./Lerneinheiten/02_Grundlagen/07_Methoden.ipynb)
+   1. [Methoden *(built-in)*](./Lerneinheiten/02_Grundlagen/07_Methoden.ipynb)
    1. [**Übungen zu Grundelementen**](./Lerneinheiten/10_Übungen/02_Grundelemente.ipynb)
 1. Verzweigungen
    1. [`if-elif-else`](./Lerneinheiten/03_Verzweigungen/01_if-elif-else.ipynb)
