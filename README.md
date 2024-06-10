@@ -40,10 +40,12 @@ Der Kurs umfasst die folgenden Lerneinheiten:
    1. [Variablen](./Lerneinheiten/02_Grundlagen/05_Variablen.ipynb)
    1. [Funktionen *(built-in)*](./Lerneinheiten/02_Grundlagen/06_Funktionen.ipynb)
    1. [Methoden](./Lerneinheiten/02_Grundlagen/07_Methoden.ipynb)
+   1. [**Übungen zu Grundelementen**](./Lerneinheiten/10_Übungen/02_Grundelemente.ipynb)
 1. Verzweigungen
    1. [`if-elif-else`](./Lerneinheiten/03_Verzweigungen/01_if-elif-else.ipynb)
    1. [`match-case`](./Lerneinheiten/03_Verzweigungen/02_match-case.ipynb)
    1. [`try-raise-except-finally`](./Lerneinheiten/03_Verzweigungen/03_try-raise-except-finally.ipynb)
+   1. [**Übungen zu Verzweigungen**](./Lerneinheiten/10_Übungen/03_Verzweigungen.ipynb)
 1. Dauerschleifen (`while`)
    1. [Einführung](./Lerneinheiten/04_Dauerschleifen/01_Einführung.ipynb)
    1. [Anwendungen - Maximum](./Lerneinheiten/04_Dauerschleifen/02_Maximum.ipynb)
@@ -77,3 +79,4 @@ Der Kurs umfasst die folgenden Lerneinheiten:
    1. [Anwendungen - Kürzeste Pfade](./Lerneinheiten/09_Graphen/03_Kürzeste_Pfade.ipynb)
    1. [Anwendungen - Zusammenhangskomponenten](./Lerneinheiten/09_Graphen/04_Zusammenhangskomponenten.ipynb)
    1. [Anwendungen - Topologische Sortierungen](./Lerneinheiten/09_Graphen/05_Topologische_Sortierung.ipynb)
+   1. [**Übungen zu Graphstrukturen**](./Lerneinheiten/10_Übungen/09_Graphstrukturen.ipynb)
